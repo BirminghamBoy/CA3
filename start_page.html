@@ -27,6 +27,7 @@
       
       body {
         background-color: var(--c-background-color);
+        max-width: 800px;
       }
 
       header, footer {
@@ -35,6 +36,14 @@
 
       main, footer, header {
         color: var(--base-font-color);
+      }
+
+      main {
+        display: flex;
+      }
+
+      article {
+        flex: 1;
       }
 
       article a {
@@ -68,7 +77,7 @@
       }
 
       nav li {
-        margin: 0 80px;
+        margin: 0 60px;
       }
 
       aside {
@@ -81,6 +90,10 @@
 
       aside a:hover {
         color: var(--c-blue);
+      }
+
+      article h2, article h3 {
+        padding-top: 50px;
       }
     </style>
 
